@@ -1,0 +1,30 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.Jumbotron h1{
+    text-align: center;
+    font-size: 100px;
+}
+    
+
+
+#puppic1{
+    float: left;
+    margin-right: 30px;
+    
+}
+
+#sideofpic{
+    margin-right: 30px;
+    float:right;
+}
+
+.mainPolaroid{
+    position: relative
+}
+
+.SignUpDog{
+    top: 200px;
+    position: absolute;
+}
