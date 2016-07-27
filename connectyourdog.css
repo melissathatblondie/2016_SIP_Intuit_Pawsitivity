@@ -1,3 +1,40 @@
+.nav navbar-nav navbar-right {
+    margin-bottom: 0;
+    background-color: #fff;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 2px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #91A8D0 !important;
+    font-size: 18px;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #ff94c9 !important;
+    background-color: #91A8D0 !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #91A8D0 !important;
+}
+
+.brand {
+    margin-bottom: 0;
+    background-color: #fff;
+    z-index: 9999;
+    border: 0;
+    font-size: 40 px;
+    line-height: 1.42857143 !important;
+    letter-spacing: 8px;
+    border-radius: 0;
+}
+
 body{
     color: #91A8D0;
     font-family: 'Exo', sans-serif;
@@ -8,6 +45,7 @@ body{
     font-size: 60px;
     color: #91A8D0;
     font-family: 'Exo', sans-serif;
+    padding-top: 50px;
 }
     
 
@@ -16,32 +54,39 @@ body{
     float: left;
     margin-right: 30px;
     padding-bottom: initial;
-    padding-left: 100px;
+    padding-left: 200px;
     padding-right: 10px;
     
 }
 
 #sideofpic{
-    margin-right: 100px;
+    
     position:absolute;
-    right: 200px;
-    top: 100px;
+    left: 600px;
+    top: 150px;
+    margin-right: 200px;
+    padding-left: 30px;
     
 }
 
 .mainPolaroid{
-    position: relative
+    position: relative;
+    padding-top: 40px;
 }
 
 .SignUpDog{
     top: 450px;
     position: absolute;
-    left: 180px;
+    left: 570px;
+    padding-top: 35px;
+
 }
 
 .SignUpDog h1 {
     color: #ff94c9;
     font-family: 'Exo', sans-serif;
+    font-size: 45px;
+    padding-bottom: 20px;
 }
 
 h3 {
@@ -54,3 +99,12 @@ img {
     width: 50%;
 }
 
+.buttons {
+    position: absolute;
+    right: 40px;
+    padding-bottom: 100px;
+}
+ul,p {
+    font-size: 20px;
+    
+}
