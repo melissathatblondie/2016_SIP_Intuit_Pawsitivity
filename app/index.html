@@ -1,7 +1,17 @@
 <!doctype html>
 <html>
     <head>
+
+        <!-- Liberries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="http://oss.maxcdn.com/semantic-ui/2.1.8/semantic.min.css">
+        <script src="http://oss.maxcdn.com/semantic-ui/2.1.8/semantic.min.js"></script>
+
+        <!-- Firebase Garbage -->
         <script src="https://www.gstatic.com/firebasejs/3.2.1/firebase.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-database.js"></script>
         <script>
           // Initialize Firebase
           var config = {
@@ -12,10 +22,69 @@
           };
           firebase.initializeApp(config);
         </script>
+
+        <!-- Paws App -->
         <script src="app.js"></script>
         <link rel="stylesheet" href="app.css" rel="stylesheet">
+
+
     </head>
 <body>
-Paws
+
+    <div id="paws">
+
+
+        <div class="ui grid centered">
+            <div class="ui twelve wide column">
+
+
+
+                <div id="header">
+                </div>
+
+
+
+                <div id="register">
+
+                    <form data-endpoint="register" class="ui form" onsubmit="return false;">
+                        <div class="field">
+                            <label>Username</label>
+                            <input type="text" name="username">
+                        </div>
+                        <div class="field">
+                            <label>Password</label>
+                            <input type="password" name="password">
+                        </div>
+                        <button class="ui button" type="submit">Register</button>
+                        <a class="showLogin" href="#">Already have an account? <strong>Login</strong></a>
+                    </form>
+
+                </div>
+
+                <div id="login">
+                    
+                    <form data-endpoint="login" class="ui form" onsubmit="return false;">
+                        <div class="field">
+                            <label>Username</label>
+                            <input type="text" name="username">
+                        </div>
+                        <div class="field">
+                            <label>Password</label>
+                            <input type="password" name="password">
+                        </div>
+                        <button class="ui button" type="submit">Login</button>
+                        <a class="showRegister" href="#">Need an account? <strong>Register</strong></a>
+                    </form>
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+    </div>
+
 </body>
 </html>
