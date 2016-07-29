@@ -1,0 +1,41 @@
+.nav navbar-nav navbar-right {
+   margin-bottom: 0;
+   background-color: #fff;
+   z-index: 9999;
+   border: 0;
+   font-size: 12px !important;
+   line-height: 1.42857143 !important;
+   letter-spacing: 2px;
+   border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+   color: #91A8D0 !important;
+   font-size: 18px;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+   color: #ff94c9 !important;
+   background-color: #91A8D0 !important;
+}
+
+.navbar-default .navbar-toggle {
+   border-color: transparent;
+   color: #91A8D0 !important;
+}
+
+.brand {
+   margin-bottom: 0;
+   background-color: #fff;
+   z-index: 9999;
+   border: 0;
+   font-size: 40 px;
+   line-height: 1.42857143 !important;
+   letter-spacing: 8px;
+   border-radius: 0;
+}
+
+body{
+   color: #91A8D0;
+   font-family: 'Exo', sans-serif;
+}
